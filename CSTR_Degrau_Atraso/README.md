@@ -16,12 +16,9 @@ $\frac{dC_A}{dt} = \frac{F}{V}(C_{A0} - C_A) - kC_A^2$
 
 Este modelo é representado por duas funções de transferência lineares:
 
-- Perturbação em `CA0`:
-  $G_2(s) = \frac{K_2}{\tau s + 1}, \quad K_2 = \frac{F}{F + 2kVC_{A_{rp}}}$
+- Perturbação em `CA0`:  $G_2(s) = \frac{K_2}{\tau s + 1}, \quad K_2 = \frac{F}{F + 2kVC_{A_{rp}}}$
 
-- Perturbação em `F`:
-
-  $G_1(s) = \frac{K_1}{\tau s + 1}, \quad K_1 = \frac{CA0_{rp} - C_{A_{rp}}}{F + 2kVC_{A_{rp}}}$
+- Perturbação em `F`:  $G_1(s) = \frac{K_1}{\tau s + 1}, \quad K_1 = \frac{CA0_{rp} - C_{A_{rp}}}{F + 2kVC_{A_{rp}}}$
 
 A saída total é dada por:
 
