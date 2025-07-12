@@ -32,7 +32,7 @@ Os notebooks podem abranger os seguintes tópicos:
 <img width="1300" height="416" alt="image" src="https://github.com/user-attachments/assets/51ae2c85-b7ab-4a99-83f2-7a030707cff8" />
 
 
-<p align="center">
+<p align="justify">
 O gráfico ilustra claramente que os erros obtidos utilizando a biblioteca SymPy em Python foram significativamente menores do que aqueles calculados no Scilab com o método de Runge-Kutta de 4ª ordem. Essa diferença ocorre devido à natureza das abordagens utilizadas: a SymPy opera no domínio simbólico, enquanto o Runge-Kutta é um método numérico. A abordagem simbólica permite encontrar soluções exatas para as equações diferenciais, enquanto a abordagem numérica aproxima essas soluções por meio de cálculos iterativos ponto a ponto.
 </p>
 
