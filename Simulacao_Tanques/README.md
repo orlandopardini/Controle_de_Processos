@@ -36,6 +36,12 @@ O modelo avalia o comportamento dinâmico do nível de um reservatório frente a
 
 ---
 
+##  Imagem da implementaçãp:
+
+![Simulacao_Tanque_aquecimento](https://github.com/user-attachments/assets/a9a31132-8461-463c-8831-12456dd204b9)
+
+---
+
 ##  Modelo Disponível
 
 ### `Problema_Reservatorio`
