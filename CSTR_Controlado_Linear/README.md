@@ -22,8 +22,8 @@ $\frac{dC_A}{dt} = \frac{F}{V}(C_{A0} - C_A) - kC_A^2 \Rightarrow G(s) = \frac{K
 Com ganhos e constantes calculados como:
 
 $\tau = \frac{V}{F + 2kVC_{A_{rp}}}, \quad$
-K_1 = \frac{CA0_{rp} - C_{A_{rp}}}{F + 2kVC_{A_{rp}}}, \quad
-K_2 = \frac{F}{F + 2kVC_{A_{rp}}}
+$K_1 = \frac{CA0_{rp} - C_{A_{rp}}}{F + 2kVC_{A_{rp}}}, \quad$
+$K_2 = \frac{F}{F + 2kVC_{A_{rp}}}$
 
 ### Malha de Controle
 
@@ -31,9 +31,9 @@ A estrutura de controle é composta por:
 
 * **Setpoint**: entrada de referência (servo problema);
 * **Transmissor**: modela a dinâmica do sensor;
-* **Controlador PID**: com ganhos \(P\), \(I\) e \(D\);
+* **Controlador PID**: com ganhos $\(P\)$, $\(I\)$ e $\(D\)$;
 * **Válvula de controle**: com dinâmica de primeira ordem;
-* **Processo**: sistema com ganho \(K_1\) e constante de tempo \(\tau\).
+* **Processo**: sistema com ganho $\(K_1\)$ e constante de tempo $\(\tau\)$.
 
 ---
 
@@ -86,7 +86,7 @@ A estrutura de controle é composta por:
 ##  Estrutura do Script
 
 * Define parâmetros físicos do reator, ponto de operação e perturbações;
-* Calcula ganhos \(K_1, K_2\) e \(\tau\);
+* Calcula ganhos $\(K_1, K_2\)$ e $\(\tau\)$;
 * Cria:
   - Funções de transferência para processo, válvula e transmissor;
   - Blocos `Step` para entrada de referência e perturbações;
