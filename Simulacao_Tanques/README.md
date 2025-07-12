@@ -38,7 +38,7 @@ O modelo avalia o comportamento dinâmico do nível de um reservatório frente a
 
 ##  Modelo Disponível
 
-### `Problema3_Reservatorio`
+### `Problema_Reservatorio`
 
 > Modelo com comparação entre função de transferência e modelo físico de tanque.
 
