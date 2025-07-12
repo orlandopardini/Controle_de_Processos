@@ -20,27 +20,21 @@ Os scripts são utilizados para:
 
 O modelo parte do balanço de massa não linear do CSTR:
 
-\[
-\frac{dC_A}{dt} = \frac{F}{V}(C_{A0} - C_A) - kC_A^2
-\]
+$\frac{dC_A}{dt} = \frac{F}{V}(C_{A0} - C_A) - kC_A^2$
 
-Para simplificação e análise, esse sistema é linearizado ao redor do ponto de operação \((CA0_{rp}, F_{rp}, CA_{rp})\), resultando em duas funções de transferência com entradas independentes:
+Para simplificação e análise, esse sistema é linearizado ao redor do ponto de operação $\((CA0_{rp}, F_{rp}, CA_{rp})\)$, resultando em duas funções de transferência com entradas independentes:
 
-* Perturbação em `CA0`:  
-  \[
-  G_2(s) = \frac{K_2}{\tau s + 1}, \quad K_2 = \frac{F_{rp}}{F_{rp} + 2kVC_{A_{rp}}}
-  \]
+* Perturbação em `CA0`:
+    
+$G_2(s) = \frac{K_2}{\tau s + 1}, \quad K_2 = \frac{F_{rp}}{F_{rp} + 2kVC_{A_{rp}}}$
 
 * Perturbação em `F`:  
-  \[
-  G_1(s) = \frac{K_1}{\tau s + 1}, \quad K_1 = \frac{CA0_{rp} - C_{A_{rp}}}{F_{rp} + 2kVC_{A_{rp}}}
-  \]
+
+$G_1(s) = \frac{K_1}{\tau s + 1}, \quad K_1 = \frac{CA0_{rp} - C_{A_{rp}}}{F_{rp} + 2kVC_{A_{rp}}}$
 
 A saída total é dada por:
 
-\[
-C_A(s) = G_1(s) \cdot \Delta F(s) + G_2(s) \cdot \Delta CA0(s) + C_{A_{rp}}
-\]
+$C_A(s) = G_1(s) \cdot \Delta F(s) + G_2(s) \cdot \Delta CA0(s) + C_{A_{rp}}$
 
 ---
 
@@ -64,7 +58,7 @@ C_A(s) = G_1(s) \cdot \Delta F(s) + G_2(s) \cdot \Delta CA0(s) + C_{A_{rp}}
 
 ---
 
-## 📖 Requisitos
+##  Requisitos
 
 * MATLAB (testado na R2021b ou superior);
 * Toolbox Simulink.
@@ -83,7 +77,7 @@ C_A(s) = G_1(s) \cdot \Delta F(s) + G_2(s) \cdot \Delta CA0(s) + C_{A_{rp}}
 
 ##  Estrutura do Script
 
-* Define os parâmetros operacionais e calcula os ganhos \( K_1, K_2 \) e constante de tempo \( \tau \);
+* Define os parâmetros operacionais e calcula os ganhos $\( K_1, K_2 \)$ e constante de tempo $\( \tau \)$;
 * Cria blocos `Step` para aplicar perturbações em `F` e `CA0`;
 * Constrói as funções de transferência `G1` e `G2` no Simulink;
 * Soma as contribuições e adiciona a concentração de referência;
@@ -94,7 +88,7 @@ C_A(s) = G_1(s) \cdot \Delta F(s) + G_2(s) \cdot \Delta CA0(s) + C_{A_{rp}}
 ##  Observações
 
 * As perturbações são aplicadas no instante inicial (`t = 0`);
-* Os valores de \( C_{A_{rp}} \), \( CA0_{rp} \), e \( F_{rp} \) devem representar o regime estacionário escolhido;
+* Os valores de $\( C_{A_{rp}} \)$, $\( CA0_{rp} \)$, e $\( F_{rp} \)$ devem representar o regime estacionário escolhido;
 * Útil para análises de sensibilidade, controle e estudos comparativos com o modelo não linear.
 
 ---
