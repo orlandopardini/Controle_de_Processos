@@ -22,7 +22,7 @@ O modelo parte do balanço de massa não linear do CSTR:
 
 $\frac{dC_A}{dt} = \frac{F}{V}(C_{A0} - C_A) - kC_A^2$
 
-Para simplificação e análise, esse sistema é linearizado ao redor do ponto de operação $\((CA0_{rp}, F_{rp}, CA_{rp})\)$, resultando em duas funções de transferência com entradas independentes:
+Para simplificação e análise, esse sistema é linearizado ao redor do ponto de operação $\(CA0_{rp}, F_{rp}, CA_{rp})\$, resultando em duas funções de transferência com entradas independentes:
 
 * Perturbação em `CA0`:
     
