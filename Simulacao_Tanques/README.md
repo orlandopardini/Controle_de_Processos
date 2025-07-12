@@ -73,7 +73,7 @@ O script realiza:
 * Definição dos parâmetros do reservatório (área, altura, constante de descarga);
 * Criação do modelo com `new_system()` e inserção dos blocos;
 * Implementação da função de transferência e do modelo físico;
-* Soma com valor de referência (`h_{rp}`) para comparação visual;
+* Soma com valor de referência (`h_rp`) para comparação visual;
 * Conexão e roteamento dos sinais com `add_line()`;
 * Organização visual com `set_param()`.
 
