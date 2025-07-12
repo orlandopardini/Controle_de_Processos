@@ -23,13 +23,9 @@ $\tau = \frac{\rho \cdot V}{\dot{m}}, \quad K_{T0} = 1, \quad K_Q = \frac{1}{\do
 
 O sistema é representado por duas funções de transferência em paralelo:
 
-* Resposta à temperatura de entrada `T0`:
+* Resposta à temperatura de entrada `T0`:  $\frac{K_{T0}}{1 + s\tau}$
 
-$\frac{K_{T0}}{1 + s\tau}$
-
-* Resposta à potência de aquecimento `Q`:
-
-$\frac{K_Q}{1 + s\tau}$
+* Resposta à potência de aquecimento `Q`:  $\frac{K_Q}{1 + s\tau}$
 
 A saída térmica total é obtida pela soma dessas duas contribuições em relação à temperatura de referência `T_{rp}`.
 
