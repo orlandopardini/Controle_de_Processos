@@ -29,7 +29,8 @@ Os notebooks podem abranger os seguintes tópicos:
 
 ## Discussão sobre o Cálculo Simbólico vs. Numérico:
 
-<img width="467" height="676" alt="image" src="https://github.com/user-attachments/assets/591267bd-a34a-4eb9-b9d2-6b0ee1c59c0d" />
+<img width="888" height="588" alt="image" src="https://github.com/user-attachments/assets/664f2e96-c0df-412f-90d6-86ae85533f45" /> <img width="888" height="588" alt="image" src="https://github.com/user-attachments/assets/5420df27-2a9d-4d1d-a24f-0815b0d255fb" />
+
 
 O gráfico ilustra claramente que os erros obtidos utilizando a biblioteca SymPy em Python foram significativamente menores do que aqueles calculados no Scilab com o método de Runge-Kutta de 4ª ordem. Essa diferença ocorre devido à natureza das abordagens utilizadas: a SymPy opera no domínio simbólico, enquanto o Runge-Kutta é um método numérico. A abordagem simbólica permite encontrar soluções exatas para as equações diferenciais, enquanto a abordagem numérica aproxima essas soluções por meio de cálculos iterativos ponto a ponto.
 
