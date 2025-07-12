@@ -50,7 +50,7 @@ A escolha entre abordagens simbólicas e numéricas depende do contexto. Método
 <br>
 
 ### Referências Bibliográficas:
-
+<br>
 - **Chapra, S. C., & Canale, R. P.** (2014). Métodos Numéricos para Engenheiros: com programação em Python e MATLAB. McGraw-Hill.
 - SymPy Documentation. (2024). SymPy:
 
