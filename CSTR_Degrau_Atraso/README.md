@@ -12,25 +12,20 @@ A proposta é analisar a resposta dinâmica do sistema linearizado após um atra
 
 O modelo é derivado do balanço de massa para um reator contínuo com reação de segunda ordem. Para fins de análise e controle, é utilizado o modelo linearizado ao redor do ponto de operação:
 
-\[
-\frac{dC_A}{dt} = \frac{F}{V}(C_{A0} - C_A) - kC_A^2
-\]
+$\frac{dC_A}{dt} = \frac{F}{V}(C_{A0} - C_A) - kC_A^2$
 
 Este modelo é representado por duas funções de transferência lineares:
 
 - Perturbação em `CA0`:
-  G_2(s) = \frac{K_2}{\tau s + 1}, \quad K_2 = \frac{F}{F + 2kVC_{A_{rp}}}
+  $G_2(s) = \frac{K_2}{\tau s + 1}, \quad K_2 = \frac{F}{F + 2kVC_{A_{rp}}}$
 
 - Perturbação em `F`:
-  \[
-  G_1(s) = \frac{K_1}{\tau s + 1}, \quad K_1 = \frac{CA0_{rp} - C_{A_{rp}}}{F + 2kVC_{A_{rp}}}
-  \]
+
+  $G_1(s) = \frac{K_1}{\tau s + 1}, \quad K_1 = \frac{CA0_{rp} - C_{A_{rp}}}{F + 2kVC_{A_{rp}}}$
 
 A saída total é dada por:
 
-\[
-C_A(s) = G_1(s) \cdot \Delta F(s) + G_2(s) \cdot \Delta CA0(s) + C_{A_{rp}}
-\]
+$C_A(s) = G_1(s) \cdot \Delta F(s) + G_2(s) \cdot \Delta CA0(s) + C_{A_{rp}}$
 
 ---
 
