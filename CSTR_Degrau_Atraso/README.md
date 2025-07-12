@@ -19,9 +19,7 @@ O modelo é derivado do balanço de massa para um reator contínuo com reação 
 Este modelo é representado por duas funções de transferência lineares:
 
 - Perturbação em `CA0`:
-  \[
-  G_2(s) = \frac{K_2}{\tau s + 1}, \quad K_2 = \frac{F}{F + 2kVC_{A_{rp}}}
-  \]
+  \G_2(s) = \frac{K_2}{\tau s + 1}, \quad K_2 = \frac{F}{F + 2kVC_{A_{rp}}}\
 
 - Perturbação em `F`:
   \[
