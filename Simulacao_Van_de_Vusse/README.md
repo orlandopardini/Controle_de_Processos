@@ -30,7 +30,7 @@ Essas equações são implementadas em blocos `MATLAB Function` dentro do ambien
 
 ---
 
-## 🔧 Modelos Disponíveis
+##  Modelos Disponíveis
 
 ### 1. `VanderVusse_FinalScope`
 
@@ -57,7 +57,7 @@ Essas equações são implementadas em blocos `MATLAB Function` dentro do ambien
 
 ---
 
-## 📖 Requisitos
+##  Requisitos
 
 * MATLAB (testado na R2021b ou superior);
 * Toolbox Simulink;
@@ -65,7 +65,7 @@ Essas equações são implementadas em blocos `MATLAB Function` dentro do ambien
 
 ---
 
-## ⚖️ Como Executar
+##  Como Executar
 
 1. Abra o MATLAB;
 2. Execute o script desejado (ex: `VanderVusse_FinalScope.m`);
@@ -75,7 +75,7 @@ Essas equações são implementadas em blocos `MATLAB Function` dentro do ambien
 
 ---
 
-## 📚 Estrutura dos Scripts
+##  Estrutura dos Scripts
 
 Cada script:
 
