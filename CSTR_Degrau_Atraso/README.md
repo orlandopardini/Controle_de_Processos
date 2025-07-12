@@ -44,7 +44,7 @@ $C_A(s) = G_1(s) \cdot \Delta F(s) + G_2(s) \cdot \Delta CA0(s) + C_{A_{rp}}$
 * As funções de transferência `G1` e `G2` são usadas para modelar a resposta linear do sistema;
 * A concentração total `CA` é somada ao valor de regime permanente `CArp`;
 * O modelo também calcula e plota a entrada real de `CA0` após somar o degrau com o valor de referência `CA0rp`;
-* Resultados são exibidos nos escopos `$Scope_CA$` e `$Scope_CA0$`, e exportados para `$WS_CA$` e `$WS_CA0$` no Workspace.
+* Resultados são exibidos nos escopos `Scope_CA` e `Scope_CA0`, e exportados para `WS_CA` e `WS_CA0` no Workspace.
 
 ---
 
