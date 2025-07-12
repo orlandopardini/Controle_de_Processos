@@ -17,11 +17,11 @@ O objetivo é comparar a dinâmica do sistema quando operado livremente versus q
 
 O sistema é baseado na equação de balanço de massa com reação de segunda ordem, linearizada ao redor do ponto de operação:
 
-\frac{dC_A}{dt} = \frac{F}{V}(C_{A0} - C_A) - kC_A^2 \Rightarrow G(s) = \frac{K}{\tau s + 1}
+$\frac{dC_A}{dt} = \frac{F}{V}(C_{A0} - C_A) - kC_A^2 \Rightarrow G(s) = \frac{K}{\tau s + 1}$
 
 Com ganhos e constantes calculados como:
 
-\tau = \frac{V}{F + 2kVC_{A_{rp}}}, \quad
+$\tau = \frac{V}{F + 2kVC_{A_{rp}}}, \quad$
 K_1 = \frac{CA0_{rp} - C_{A_{rp}}}{F + 2kVC_{A_{rp}}}, \quad
 K_2 = \frac{F}{F + 2kVC_{A_{rp}}}
 
