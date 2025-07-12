@@ -24,23 +24,17 @@ Os scripts são utilizados para:
 
 Baseado no balanço de massa para um reator CSTR com reação de segunda ordem:
 
-\[
-\frac{dC_A}{dt} = \frac{F}{V}(C_{A0} - C_A) - kC_A^2
-\]
+$\frac{dC_A}{dt} = \frac{F}{V}(C_{A0} - C_A) - kC_A^2$
 
 ### Modelo Linearizado
 
 A versão linearizada, ao redor do ponto de operação, assume uma função de transferência de primeira ordem:
 
-\[
-G(s) = \frac{K_p}{\tau s + 1}
-\]
+$G(s) = \frac{K_p}{\tau s + 1}$
 
 Com os seguintes parâmetros:
 
-\[
-\tau = \frac{V}{F + 2kVC_{A_{rp}}}, \quad K_p = \frac{F}{F + 2kVC_{A_{rp}}}
-\]
+$\tau = \frac{V}{F + 2kVC_{A_{rp}}}, \quad K_p = \frac{F}{F + 2kVC_{A_{rp}}}$
 
 ---
 
