@@ -44,6 +44,12 @@ Com os seguintes parâmetros:
 
 ---
 
+##  Imagem da implementação:
+
+![Problema_6_Reator_isotermico](https://github.com/user-attachments/assets/d59baf4f-4e0c-4cff-b7ba-103b62cbfa53)
+
+---
+
 ##  Modelo Disponível
 
 ### `CSTR_Linear_NaoLinear`
