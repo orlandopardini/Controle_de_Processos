@@ -30,7 +30,7 @@ Essas equações são implementadas em blocos `MATLAB Function` dentro do ambien
 
 ---
 
-##  Imagem da implementaçãp:
+##  Imagem da implementação:
 
 ![VanderVusse_1](https://github.com/user-attachments/assets/0a3ea4b1-ca34-4461-99f6-93ee6c9606fe)
 
