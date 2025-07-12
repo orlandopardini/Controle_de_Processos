@@ -30,6 +30,14 @@ Essas equações são implementadas em blocos `MATLAB Function` dentro do ambien
 
 ---
 
+##  Imagem da implementaçãp:
+
+![VanderVusse_1](https://github.com/user-attachments/assets/0a3ea4b1-ca34-4461-99f6-93ee6c9606fe)
+
+![VanderVusse_2](https://github.com/user-attachments/assets/fd69d180-d918-40ef-99bc-5b950911720b)
+
+---
+
 ##  Modelos Disponíveis
 
 ### 1. `VanderVusse_FinalScope`
