@@ -31,7 +31,7 @@ Os notebooks podem abranger os seguintes tópicos:
 
 <img width="1300" height="416" alt="image" src="https://github.com/user-attachments/assets/51ae2c85-b7ab-4a99-83f2-7a030707cff8" />
 
-/br
+<br>
 <p align="justify">
 O gráfico ilustra claramente que os erros obtidos utilizando a biblioteca SymPy em Python foram significativamente menores do que aqueles calculados no Scilab com o método de Runge-Kutta de 4ª ordem. Essa diferença ocorre devido à natureza das abordagens utilizadas: a SymPy opera no domínio simbólico, enquanto o Runge-Kutta é um método numérico. A abordagem simbólica permite encontrar soluções exatas para as equações diferenciais, enquanto a abordagem numérica aproxima essas soluções por meio de cálculos iterativos ponto a ponto.
 </p>
@@ -47,11 +47,12 @@ Por outro lado, o método de Runge-Kutta de 4ª ordem, utilizado no Scilab, é u
 <p align="justify">
 A escolha entre abordagens simbólicas e numéricas depende do contexto. Métodos simbólicos, como o oferecido pela SymPy, são ideais para sistemas que possuem soluções analíticas ou quando é necessário validar resultados com alta precisão. Já os métodos numéricos, como o de Runge-Kutta, são mais indicados para sistemas complexos ou não lineares, onde soluções analíticas não são viáveis. Neste caso, a biblioteca SymPy demonstrou maior eficiência na obtenção de resultados com precisão elevada, enquanto o Scilab, com o método numérico, apresentou pequenos erros que, embora sejam aceitáveis para muitas aplicações práticas, destacam as limitações inerentes aos métodos numéricos.
 </p>
+<br>
 
+### Referências Bibliográficas:
 
-Referências Bibliográficas:
-**Chapra, S. C., & Canale, R. P.** (2014). Métodos Numéricos para Engenheiros: com programação em Python e MATLAB. McGraw-Hill.
-SymPy Documentation. (2024). SymPy:
+- **Chapra, S. C., & Canale, R. P.** (2014). Métodos Numéricos para Engenheiros: com programação em Python e MATLAB. McGraw-Hill.
+- SymPy Documentation. (2024). SymPy:
 
 ---
 
